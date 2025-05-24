@@ -1,3 +1,4 @@
+# Zookeeper properties
 zookeeper_jaas_file: /etc/kafka/kafka_server_jaas.conf
 zookeeper_jaas_java_arg: "-Djava.security.auth.login.config={{zookeeper_jaas_file}}"
 zookeeper_open_file_limit: "{{open_file_limit}}"
