@@ -10,7 +10,7 @@ zookeeper_service_overrides:
   LimitNOFILE: "{{zookeeper_open_file_limit}}"
 
 zookeeper_packages:
-  - confluent-kafka-2.12
+  - confluent-kafka-2.13
 
 zookeeper:
   user: cp-kafka
