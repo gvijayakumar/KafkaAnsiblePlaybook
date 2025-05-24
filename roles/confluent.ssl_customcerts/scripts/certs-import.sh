@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# script to import keystores into ca certs
 set -o nounset \
     -o errexit \
     -o verbose
