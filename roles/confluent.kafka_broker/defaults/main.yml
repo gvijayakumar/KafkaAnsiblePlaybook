@@ -14,7 +14,7 @@ kafka_broker_sysctl:
   vm.dirty_ratio: 60
 
 kafka_broker_packages:
-  - confluent-kafka-2.12
+  - confluent-kafka-2.13
   - confluent-rebalancer
 
 kafka_broker:
